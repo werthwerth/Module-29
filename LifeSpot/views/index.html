@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>LifeSpot</title>
     <link href="../static/css/main.css" rel="stylesheet" type="text/css">
+    <script src="../Static/JS/index.js"></script>
+    <script>
+        handleSession();
+        sessionLog();
+        const inputParseFunction = function () {
+            return document.getElementsByTagName('input')[0].value.toLowerCase();
+        }
+    </script>
 </head>
 
 <header id="header-index">
@@ -35,8 +43,8 @@
 
     <aside id="sidebar">
         <div class="navbar">
-            <a href="#"<p>Все трансляции</p></a>
-            <a href="#"<p>О проекте</p></a>
+            <a href="/"<p>Все трансляции</p></a>
+            <a href="/about"<p>О проекте</p></a>
         </div>
     </aside>
 </body>

@@ -1,0 +1,60 @@
+﻿header, footer, body, .navbar {
+    font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+.reviews, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+body {
+    background-color: white;
+    padding-left: 11%;
+}
+
+aside {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 2%;
+    font-size: large;
+}
+
+.navbar p:hover {
+    color: aliceblue;
+}
+
+.navbar {
+    color: darkgray;
+    padding-left: 15%;
+}
+
+header {
+    padding-left: 1%;
+    padding-top: 1.2%;
+    color: #44453f;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: medium;
+    color: dimgrey;
+    line-height: 66%;
+    margin-left: 15px;
+    margin-bottom: -55px;
+}
